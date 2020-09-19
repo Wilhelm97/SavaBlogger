@@ -137,7 +137,6 @@ if (isset($_POST['submit']) & !empty($_POST['submit'])) {
 ';
                 }
             } else {
-                echo "0 results";
             }
             ?>
         </div>

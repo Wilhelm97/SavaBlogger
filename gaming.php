@@ -6,7 +6,7 @@
 
 </br>
 <div class="container">
-    <h1 class="text-center">Programming</h1>
+    <h1 class="text-center">Gaming</h1>
     </br>
     <div class="row">
 
@@ -18,7 +18,7 @@
             if (!$conn) {
                 die("Connection failed: ");
             }
-            $mysql = "SELECT * FROM post WHERE post_type = 'programming'";
+            $mysql = "SELECT * FROM post WHERE post_type = 'gaming'";
             $results = mysqli_query($conn, $mysql);
             if (mysqli_num_rows($results) > 0) {
                 // output data of each row
@@ -31,7 +31,7 @@
                 <p class="card-text text-center"><p> ' . $row['post_content'] . ' </ p></p>
                 <p class="card-text text-center"><small> Author: ' . $row['post_userName'] . ' Created: ' . $row['post_created'] . '</small></p>
                 <div class="btn-group">
-                      <a class="btn btn-outline-info" href="programV?id=' . $row["post_id"] . '?>"role="button">View</a>
+                      <a class="btn btn-outline-info" href="gamingV?id=' . $row["post_id"] . '?>"role="button">View</a>
         </div>
     </div>
 </div>
