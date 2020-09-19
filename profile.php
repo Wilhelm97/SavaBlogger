@@ -54,7 +54,7 @@ if (isset($_POST['submit']) & !empty($_POST['submit'])) {
 <div class="container">
     <div class="row">
         <div class="col-sm-3">
-            <!-- <?php echo '' . $_SESSION['username'] . '' ?> -->
+            <?php echo '' . $_SESSION['username'] . '' ?>
             <!-- <?php echo '' . $_SESSION['usertype'] . '' ?> -->
 
         </div>

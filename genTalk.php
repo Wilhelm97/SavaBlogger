@@ -1,7 +1,7 @@
 <?php include './inc/header.php' ?>
 <?php
 if (!isset($_SESSION['useremail'])) {
-    header('location: index');
+    header('location: signin');
 } ?>
 <?php
 require_once './config/_conn.php';

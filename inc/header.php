@@ -53,7 +53,7 @@ session_start();
                                      <a class="nav-link" href="signup">Signup</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="signin">Login</a>
+                                    <a class="nav-link" href="signin">Signin</a>
                                 </li>
                             </ul>
                         </div>
