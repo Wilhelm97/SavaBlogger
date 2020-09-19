@@ -1,0 +1,42 @@
+i will need a admin panel. This admin panel will be in charge of approving posts. 
+If the post is approved it will show up in the users profile or theit home blog page.
+
+There will have to be a set type of posts i.e (Video games, news, programming etc)
+
+Home page will have the top stories from each category. This will also have to manually be select from the admin page until further notice
+
+if you put a $row[''] in a variable it can be used on the entire webstie
+add Gag page where people can add memes or funny jokes
+
+Gerneral discussion:
+- users can create a sub page to stark a conversation
+
+Settings:
+- be able to change the background color
+
+User Types:
+- user
+- admin
+- reporter
+
+
+PROFILE:
+- edit username
+- edit email
+- edit password
+- see post
+- see if their post has passed or failed
+
+
+Landing Page:
+- see all blog pages(General, Tech news, Video games news, Programming news,TV show news)
+
+
+Admin:
+- view and process post request. Can pass or fail a post if it's beening posted to an Authorized page
+- 
+
+Post:
+- users will be able to leave comments at the buttom of a posts
+- users will be able to tag someone in a comment to make conversations better
+- upvotes / downvotes
