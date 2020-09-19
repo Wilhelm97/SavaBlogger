@@ -76,7 +76,7 @@ if (isset($_POST['submit']) & !empty($_POST['submit'])) {
 ?>
 
 <div class="container">
-    <p><a href="genTalk" class="btn btn-outline-primary">Back</a></p>
+    <p><a href="program" class="btn btn-outline-primary">Back</a></p>
     <div class="card ">
         <div class="card-body" style="color:black;">
             <h4 class="card-title text-center"><?php echo $post_title ?></h4>

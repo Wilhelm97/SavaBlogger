@@ -31,11 +31,11 @@ if (isset($_POST['submit']) & !empty($_POST['submit'])) {
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-2">
             <!-- <?php echo '' . $_SESSION['username'] . '' ?> -->
 
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-8">
             <form method="post" action="" enctype="multipart/form-data">
                 <div class="form-group">
                     <label for="title">Title</label>
@@ -43,7 +43,7 @@ if (isset($_POST['submit']) & !empty($_POST['submit'])) {
                 </div>
                 <div class="form-group">
                     <label for="blog">Post:</label>
-                    <textarea class="form-control" rows="3" name="blog" id="blog"></textarea>
+                    <textarea class="form-control" rows="5" name="blog" id="blog"></textarea>
                 </div>
 
                 <button type="submit" name="submit" value="submit" class="btn btn-info">Submit</button>
@@ -80,7 +80,7 @@ echo "0 results";
 ?>
 
 </div>
-<div class="col-sm-3">
+<div class="col-sm-2">
 
 </div>
 </div>

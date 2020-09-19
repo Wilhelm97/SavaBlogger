@@ -69,9 +69,8 @@ if (isset($_POST['submit']) & !empty($_POST['submit'])) {
                     <label for="type">Type of content:</label>
                     <select class="form-control" name="type" id="type">
                         <option>General</option>
-                        <option>Tech News</option>
-                        <option>Gaming News</option>
-                        <option>Programming News</option>
+                        <option>Gaming</option>
+                        <option>Programming</option>
                     </select>
                 </div>
                 <div class="form-group">
