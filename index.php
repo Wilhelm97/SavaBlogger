@@ -42,7 +42,7 @@
 </br>
 <div class="container">
     <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-4">
             <div class="card bg-light text-center">
                 <div class="card-body ">
                     <h4 class="card-title">Programming</h4>
@@ -51,32 +51,22 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
             <div class="card bg-light text-center">
                 <div class="card-body">
                     <h4 class="card-title">General Talk</h4>
-                    <p class="card-text">Join the conversation?</p>
+                    <p class="card-text">Join the conversation?</p> </br>
                     <a href="genTalk" class="btn btn-dark bg-info" role="button">General</a>
 
                 </div>
             </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
             <div class="card bg-light text-center">
                 <div class="card-body">
                     <h4 class="card-title">Gaming</h4>
                     <p class="card-text">What is happening in the ever expanding world of gaming?</p>
                     <a href="gaming" class="btn btn-dark bg-info" role="button">Gaming</a>
-
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card bg-light text-center">
-                <div class="card-body">
-                    <h4 class="card-title">Gag</h4>
-                    <p class="card-text">What is so funny about knock-knock jokes?</p>
-                    <a href="gag" class="btn btn-dark bg-info" role="button">Gag</a>
 
                 </div>
             </div>

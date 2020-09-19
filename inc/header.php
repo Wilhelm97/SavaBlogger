@@ -21,7 +21,7 @@ session_start();
     <body class="bg-color">
         <div id="app">
 
-            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <nav class="navbar navbar-expand-md bg-custom navbar-dark">
                 <a class="navbar-brand" href="index">SavaBlogger</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
                     <span class="navbar-toggler-icon"></span>
@@ -64,6 +64,9 @@ session_start();
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="profile">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="settings">Settings</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="signout">Signout</a>
