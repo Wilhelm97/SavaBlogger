@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-lg-2">
             <div class="btn-group-vertical">
-                <a type="button" href="" class="btn btn-primary">Information:</a>
+                <!-- <a type="button" href="" class="btn btn-primary">Information:</a> -->
                 <!-- <a type="button" href="" class="btn btn-primary">Samsung</a>
                 <a type="button" href="" class="btn btn-primary">Sony</a> -->
             </div>
