@@ -65,9 +65,14 @@ session_start();
                 <li class="nav-item">
                     <a class="nav-link" href="profile">Profile</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="settings">Settings</a>
-                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Settings
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="settings">Information</a>
+                    </div>
+                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="signout">Signout</a>
                 </li>
