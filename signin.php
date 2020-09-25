@@ -24,7 +24,7 @@ if (isset($_SESSION['username'])) {
 }
 ?>
 
-
+</br>
 <div class="container">
     <div class="row">
         <div class="col-md-3">
@@ -42,8 +42,7 @@ if (isset($_SESSION['username'])) {
                         <div class="form-group">
                             <div class="form-group">
                                 <label for="password">Password:</label>
-                                <input type="password" class="form-control" name="pass" placeholder="password"
-                                    title="At least 6 characters with letters and numbers">
+                                <input type="password" class="form-control" name="pass" placeholder="password" title="At least 6 characters with letters and numbers">
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-info btn-md float-right">Sign In</button>
