@@ -1,6 +1,1 @@
-var app = new Vue({
-  el: "#app",
-  data: {
-    message: "Hello World",
-  },
-});
+//Test: document.getElementById("test").innerHTML = "i am working";

@@ -73,10 +73,5 @@
         </div>
     </div>
 </div>
-<div id="counter">
-    Counter: {{ counter }}
-
-</div>
-
 
 <?php include './inc/footer.php' ?>
